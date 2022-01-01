@@ -1,0 +1,12 @@
+function isOpposite(s1,s2){
+let answer = []
+
+if(s1.length === 0 || s1.length !== s2.length){ return false }
+for(let i = 0; i<s1.length; i++){
+  if(s1[i] === s1[i].toLowerCase()){
+   answer.push(s2[i] === s2[i].toUpperCase()) 
+    }
+  else{answer.push(s2[i] === s2[i].toLowerCase()) 
+}}  
+  return !answer.includes(false)
+}
