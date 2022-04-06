@@ -1,0 +1,1 @@
+const pillars = (num, dist, width) => num < 2 ? 0 : ((num * width) - (width * 2)) + ((num - 1) * (dist * 100))
