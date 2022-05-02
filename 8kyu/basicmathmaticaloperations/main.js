@@ -7,3 +7,5 @@ function basicOp(operation, value1, value2){
       
     else {return value1 / value2}
     }
+
+    
